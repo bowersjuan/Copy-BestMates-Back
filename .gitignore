@@ -31,3 +31,4 @@ yarn-error.log*
 .Notes4-questions.md
 
 # modules
+/node_modules/dotenv/lib
