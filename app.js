@@ -13,7 +13,7 @@ app.use(express.json());
 //Routes
 app.use('/user', userController);
 app.get('/', (req, res) => {
-  res.send('Find your roommate!');
+  res.send('Back-End App Running');
 });
 
 app.get('*', (req, res) => {
